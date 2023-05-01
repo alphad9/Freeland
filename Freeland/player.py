@@ -11,7 +11,7 @@ class Player(pygame.sprite.Sprite):
         #position
         self.rect= self.image.get_rect()
         self.position = [x, y]
-        self.image ={
+        self.images ={
             'down': self.get_image(0,0),
             'left': self.get_image(0,33.25),
             'right':self.get_image(0,66.50),

@@ -44,7 +44,6 @@ class Game:
             self.player.move_right()
             self.player.change_animation('right')
 
-    print
 
 
     def run(self):
